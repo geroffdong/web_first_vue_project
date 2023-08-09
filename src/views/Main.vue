@@ -6,8 +6,9 @@
             </el-aside>
             <el-container>
                 <el-header>
-                <common-header/>
+                  <common-header/>
                 </el-header>
+                <common-tag/>
                 <el-main>
                     <!-- 路由出口 -->
                     <!-- 路由匹配的组件将渲染到这里 -->
@@ -20,13 +21,15 @@
 <script>
 import CommonAside from '../components/CommonAside.vue'
 import CommonHeader from '../components/CommonHeader.vue'
+import CommonTag from '../components/CommonTag.vue'
 export default {
     data() {
         return{}
     },
     components:{
         CommonAside,
-        CommonHeader
+        CommonHeader,
+        CommonTag
     }
 }
 </script>
