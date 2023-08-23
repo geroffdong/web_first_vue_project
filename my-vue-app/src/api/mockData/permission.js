@@ -6,29 +6,29 @@ export default {
     // 判断账号和密码是否对应
     if (username === 'admin' && password === 'admin') {
       return {
-        code: 20000,
+        code: 200,
         data: {
           menu: [
             {
               path: '/home',
               name: 'home',
               label: '首页',
-              icon: 's-home',
-              url: 'Home.vue'
+              icon: 'house',
+              url: 'home/Home'
             },
             {
               path: '/mall',
               name: 'mall',
               label: '商品管理',
               icon: 'video-play',
-              url: 'Mall.vue'
+              url: 'mall/index'
             },
             {
               path: '/user',
               name: 'user',
               label: '用户管理',
               icon: 'user',
-              url: 'User.vue'
+              url: 'User/User'
             },
             {
               label: '其他',
@@ -39,14 +39,14 @@ export default {
                   name: 'page1',
                   label: '页面1',
                   icon: 'setting',
-                  url: 'PageOne.vue'
+                  url: 'Page1'
                 },
                 {
                   path: '/page2',
                   name: 'page2',
                   label: '页面2',
                   icon: 'setting',
-                  url: 'PageTwo.vue'
+                  url: 'Page2'
                 }
               ]
             }
@@ -57,22 +57,22 @@ export default {
       }
     } else if (username === 'xiaoxiao' && password === 'xiaoxiao') {
       return {
-        code: 20000,
+        code: 200,
         data: {
           menu: [
             {
-              path: '/home',
+              path: '/',
               name: 'home',
               label: '首页',
               icon: 's-home',
-              url: 'Home.vue'
+              url: 'home/Home'
             },
             {
               path: '/video',
               name: 'video',
               label: '商品管理',
               icon: 'video-play',
-              url: 'Mall.vue'
+              url: 'mall/index'
             }
           ],
           token: Mock.Random.guid(),

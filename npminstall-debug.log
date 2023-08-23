@@ -3,8 +3,8 @@
   registry: 'https://registry.npmmirror.com',
   pkgs: [
     {
-      name: 'echart',
-      version: '5.1.2',
+      name: 'js-cook',
+      version: '3.0.1',
       type: 'version',
       alias: undefined,
       arg: [Result]
@@ -15,7 +15,7 @@
   cacheDir: 'C:\\Users\\jh\\.npminstall_tarball',
   env: {
     npm_config_registry: 'https://registry.npmmirror.com',
-    npm_config_argv: '{"remain":[],"cooked":["--fix-bug-versions","--china","--userconfig=C:\\\\Users\\\\jh\\\\.cnpmrc","--disturl=https://cdn.npmmirror.com/binaries/node","--registry=https://registry.npmmirror.com","echart@5.1.2"],"original":["--fix-bug-versions","--china","--userconfig=C:\\\\Users\\\\jh\\\\.cnpmrc","--disturl=https://cdn.npmmirror.com/binaries/node","--registry=https://registry.npmmirror.com","echart@5.1.2"]}',
+    npm_config_argv: '{"remain":[],"cooked":["--fix-bug-versions","--china","--userconfig=C:\\\\Users\\\\jh\\\\.cnpmrc","--disturl=https://cdn.npmmirror.com/binaries/node","--registry=https://registry.npmmirror.com","js-cook@3.0.1"],"original":["--fix-bug-versions","--china","--userconfig=C:\\\\Users\\\\jh\\\\.cnpmrc","--disturl=https://cdn.npmmirror.com/binaries/node","--registry=https://registry.npmmirror.com","js-cook@3.0.1"]}',
     npm_config_user_agent: 'npminstall/7.9.0 npm/? node/v18.16.0 win32 x64',
     npm_config_cache: 'C:\\Users\\jh\\.npminstall_tarball',
     NODE: 'D:\\software\\node\\node.exe',
